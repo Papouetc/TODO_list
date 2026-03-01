@@ -48,7 +48,7 @@ function addNote() {
         content: value,
         done: false
     });
-    input.value= " ";
+    input.value= '';
     saveNote();
     render();
 } 
